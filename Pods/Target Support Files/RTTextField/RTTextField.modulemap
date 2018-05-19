@@ -1,0 +1,6 @@
+framework module RTTextField {
+  umbrella header "RTTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

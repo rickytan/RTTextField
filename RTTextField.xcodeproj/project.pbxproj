@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43E9FB1964432B380DC5DA48 /* Pods_RTTextFieldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037872FC1B3539CECE88E9E2 /* Pods_RTTextFieldTests.framework */; };
 		9C3E2C5D20AFF5E30068070B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E2C5C20AFF5E30068070B /* AppDelegate.m */; };
 		9C3E2C6020AFF5E30068070B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E2C5F20AFF5E30068070B /* ViewController.m */; };
-		9C3E2C6320AFF5E30068070B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3E2C6120AFF5E30068070B /* Main.storyboard */; };
 		9C3E2C6520AFF5E30068070B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3E2C6420AFF5E30068070B /* Assets.xcassets */; };
 		9C3E2C6820AFF5E30068070B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3E2C6620AFF5E30068070B /* LaunchScreen.storyboard */; };
 		9C3E2C6B20AFF5E30068070B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E2C6A20AFF5E30068070B /* main.m */; };
+		9C3E2C7F20AFFA860068070B /* RTTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E2C7E20AFFA860068070B /* RTTextFieldTests.m */; };
+		FF5583AF8B520B2F5F4253F2 /* Pods_RTTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC89C97E4479EC3A3DA1078 /* Pods_RTTextField.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9C3E2C8120AFFA860068070B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3E2C5020AFF5E20068070B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C3E2C5720AFF5E30068070B;
+			remoteInfo = RTTextField;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		037872FC1B3539CECE88E9E2 /* Pods_RTTextFieldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTTextFieldTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC89C97E4479EC3A3DA1078 /* Pods_RTTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		545834522FD991D7E7A0C951 /* Pods-RTTextFieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTTextFieldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTTextFieldTests/Pods-RTTextFieldTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C3E2C5820AFF5E30068070B /* RTTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3E2C5B20AFF5E30068070B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C3E2C5C20AFF5E30068070B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9C3E2C5E20AFF5E30068070B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9C3E2C5F20AFF5E30068070B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9C3E2C6220AFF5E30068070B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C3E2C6420AFF5E30068070B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C3E2C6720AFF5E30068070B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C3E2C6920AFF5E30068070B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C3E2C6A20AFF5E30068070B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C3E2C7C20AFFA860068070B /* RTTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3E2C7E20AFFA860068070B /* RTTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTTextFieldTests.m; sourceTree = "<group>"; };
+		9C3E2C8020AFFA860068070B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA93264907114035AD2F051 /* Pods-RTTextFieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTTextFieldTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTTextFieldTests/Pods-RTTextFieldTests.release.xcconfig"; sourceTree = "<group>"; };
+		C28A6624D52E0F7CD2F9567E /* Pods-RTTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTTextField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTTextField/Pods-RTTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		EBC75E308A13E5FA9A9C201F /* Pods-RTTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTTextField.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTTextField/Pods-RTTextField.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5583AF8B520B2F5F4253F2 /* Pods_RTTextField.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3E2C7920AFFA860068070B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E9FB1964432B380DC5DA48 /* Pods_RTTextFieldTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +72,10 @@
 			isa = PBXGroup;
 			children = (
 				9C3E2C5A20AFF5E30068070B /* RTTextField */,
+				9C3E2C7D20AFFA860068070B /* RTTextFieldTests */,
 				9C3E2C5920AFF5E30068070B /* Products */,
+				BBE10DBFEF42F011E795823A /* Pods */,
+				CEF4E1672198A4C3DDE17B96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				9C3E2C5820AFF5E30068070B /* RTTextField.app */,
+				9C3E2C7C20AFFA860068070B /* RTTextFieldTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,13 +95,41 @@
 				9C3E2C5C20AFF5E30068070B /* AppDelegate.m */,
 				9C3E2C5E20AFF5E30068070B /* ViewController.h */,
 				9C3E2C5F20AFF5E30068070B /* ViewController.m */,
-				9C3E2C6120AFF5E30068070B /* Main.storyboard */,
 				9C3E2C6420AFF5E30068070B /* Assets.xcassets */,
 				9C3E2C6620AFF5E30068070B /* LaunchScreen.storyboard */,
 				9C3E2C6920AFF5E30068070B /* Info.plist */,
 				9C3E2C6A20AFF5E30068070B /* main.m */,
 			);
 			path = RTTextField;
+			sourceTree = "<group>";
+		};
+		9C3E2C7D20AFFA860068070B /* RTTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C3E2C7E20AFFA860068070B /* RTTextFieldTests.m */,
+				9C3E2C8020AFFA860068070B /* Info.plist */,
+			);
+			path = RTTextFieldTests;
+			sourceTree = "<group>";
+		};
+		BBE10DBFEF42F011E795823A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C28A6624D52E0F7CD2F9567E /* Pods-RTTextField.debug.xcconfig */,
+				EBC75E308A13E5FA9A9C201F /* Pods-RTTextField.release.xcconfig */,
+				545834522FD991D7E7A0C951 /* Pods-RTTextFieldTests.debug.xcconfig */,
+				BDA93264907114035AD2F051 /* Pods-RTTextFieldTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEF4E1672198A4C3DDE17B96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CC89C97E4479EC3A3DA1078 /* Pods_RTTextField.framework */,
+				037872FC1B3539CECE88E9E2 /* Pods_RTTextFieldTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C3E2C6E20AFF5E30068070B /* Build configuration list for PBXNativeTarget "RTTextField" */;
 			buildPhases = (
+				9CE2F423928729B6480195E9 /* [CP] Check Pods Manifest.lock */,
 				9C3E2C5420AFF5E30068070B /* Sources */,
 				9C3E2C5520AFF5E30068070B /* Frameworks */,
 				9C3E2C5620AFF5E30068070B /* Resources */,
+				51FAAE297642D13F995B5E37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -90,6 +153,25 @@
 			productName = RTTextField;
 			productReference = 9C3E2C5820AFF5E30068070B /* RTTextField.app */;
 			productType = "com.apple.product-type.application";
+		};
+		9C3E2C7B20AFFA860068070B /* RTTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C3E2C8320AFFA860068070B /* Build configuration list for PBXNativeTarget "RTTextFieldTests" */;
+			buildPhases = (
+				08AF685EBC5F442943B28ECD /* [CP] Check Pods Manifest.lock */,
+				9C3E2C7820AFFA860068070B /* Sources */,
+				9C3E2C7920AFFA860068070B /* Frameworks */,
+				9C3E2C7A20AFFA860068070B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C3E2C8220AFFA860068070B /* PBXTargetDependency */,
+			);
+			name = RTTextFieldTests;
+			productName = RTTextFieldTests;
+			productReference = 9C3E2C7C20AFFA860068070B /* RTTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -103,6 +185,11 @@
 					9C3E2C5720AFF5E30068070B = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+					};
+					9C3E2C7B20AFFA860068070B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C3E2C5720AFF5E30068070B;
 					};
 				};
 			};
@@ -120,6 +207,7 @@
 			projectRoot = "";
 			targets = (
 				9C3E2C5720AFF5E30068070B /* RTTextField */,
+				9C3E2C7B20AFFA860068070B /* RTTextFieldTests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,11 +219,74 @@
 			files = (
 				9C3E2C6820AFF5E30068070B /* LaunchScreen.storyboard in Resources */,
 				9C3E2C6520AFF5E30068070B /* Assets.xcassets in Resources */,
-				9C3E2C6320AFF5E30068070B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3E2C7A20AFFA860068070B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08AF685EBC5F442943B28ECD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RTTextFieldTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51FAAE297642D13F995B5E37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RTTextField/Pods-RTTextField-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RTTextField/RTTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RTTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTTextField/Pods-RTTextField-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CE2F423928729B6480195E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RTTextField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C3E2C5420AFF5E30068070B /* Sources */ = {
@@ -148,17 +299,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9C3E2C7820AFFA860068070B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3E2C7F20AFFA860068070B /* RTTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		9C3E2C6120AFF5E30068070B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C3E2C6220AFF5E30068070B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		9C3E2C8220AFFA860068070B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C3E2C5720AFF5E30068070B /* RTTextField */;
+			targetProxy = 9C3E2C8120AFFA860068070B /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		9C3E2C6620AFF5E30068070B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -276,6 +435,7 @@
 		};
 		9C3E2C6F20AFF5E30068070B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28A6624D52E0F7CD2F9567E /* Pods-RTTextField.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,6 +449,7 @@
 		};
 		9C3E2C7020AFF5E30068070B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC75E308A13E5FA9A9C201F /* Pods-RTTextField.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +458,38 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cn.rickytan.RTTextField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C3E2C8420AFFA860068070B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 545834522FD991D7E7A0C951 /* Pods-RTTextFieldTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RTTextFieldTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.rickytan.RTTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTTextField.app/RTTextField";
+			};
+			name = Debug;
+		};
+		9C3E2C8520AFFA860068070B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA93264907114035AD2F051 /* Pods-RTTextFieldTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RTTextFieldTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.rickytan.RTTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTTextField.app/RTTextField";
 			};
 			name = Release;
 		};
@@ -317,6 +510,15 @@
 			buildConfigurations = (
 				9C3E2C6F20AFF5E30068070B /* Debug */,
 				9C3E2C7020AFF5E30068070B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C3E2C8320AFFA860068070B /* Build configuration list for PBXNativeTarget "RTTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3E2C8420AFFA860068070B /* Debug */,
+				9C3E2C8520AFFA860068070B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

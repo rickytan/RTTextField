@@ -1,0 +1,16 @@
+PODS:
+  - RTTextField (0.5.0)
+
+DEPENDENCIES:
+  - RTTextField (from `.`)
+
+EXTERNAL SOURCES:
+  RTTextField:
+    :path: "."
+
+SPEC CHECKSUMS:
+  RTTextField: bc1852ec47a0d2ee166db88bf3ddc20d10053345
+
+PODFILE CHECKSUM: a3f76cac3c9fc0fd162c5db484c35655724dfc04
+
+COCOAPODS: 1.5.2

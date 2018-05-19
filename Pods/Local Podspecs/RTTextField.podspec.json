@@ -1,0 +1,29 @@
+{
+  "name": "RTTextField",
+  "version": "0.5.0",
+  "summary": "A dropin replacement for UITextField with input limitation.",
+  "description": "This is a dropin replacement for UITextField, which can limit the use's input by specifing a valid input pattern.",
+  "homepage": "https://github.com/rickytan/RTTextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rickytan": "ricky.tan.xin@gmail.com"
+  },
+  "social_media_url": "https://xcoder.tips",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/rickytan/RTTextField.git",
+    "tag": "0.5.0"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "public_header_files": "Classes/**/*.h",
+  "frameworks": "UIKit",
+  "requires_arc": true
+}
