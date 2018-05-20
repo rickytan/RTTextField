@@ -65,6 +65,13 @@
 
 - (BOOL)validateText:(NSString *)text
 {
+    if (self.maximumLength > 0 && text.length > self.maximumLength) {
+        return NO;
+    }
+    if (self.maximumComposedCharacterLength > 0 && text.rt_composedCharacterLength > self.maximumComposedCharacterLength) {
+        return NO;
+    }
+    
     if (self.regexp) {
         return [self.regexp firstMatchInString:text options:0 range:NSMakeRange(0, text.length)] != nil;
     }
