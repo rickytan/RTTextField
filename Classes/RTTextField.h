@@ -43,9 +43,9 @@ RT_DEFINE_INPUT_PATTERN(RTInputTypeDigit, "\\d*")
 RT_DEFINE_INPUT_PATTERN(RTInputTypeNickname, "[^`@!#$%^&*()+={}|[];:'\",.<>/?\\ ]*")
 RT_DEFINE_INPUT_PATTERN(RTInputTypeChineseCellPhone, "(1\\d{0,10})?")
 RT_DEFINE_INPUT_PATTERN(RTInputTypeChineseSimplified, "[ a-z\u4E00-\u9FA5]*")
-RT_DEFINE_INPUT_PATTERN(RTInputTypePrice, "\\d*(\\.\\d{0,2})?")
+RT_DEFINE_INPUT_PATTERN(RTInputTypePrice, "(0|[1-9]\\d*)?(\\.\\d{0,2})?")
 RT_DEFINE_INPUT_PATTERN(RTInputTypeNonnegtiveInterger, "(0|[1-9]\\d*)?")
-RT_DEFINE_INPUT_PATTERN(RTInputTypeNonnegtiveFloat, "\\d*(\\.\\d*)?")
+RT_DEFINE_INPUT_PATTERN(RTInputTypeNonnegtiveFloat, "(0|[1-9]\\d*)?(\\.\\d*)?")
 
 
 @interface NSString (RTTextField)
