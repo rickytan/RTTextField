@@ -35,6 +35,9 @@
                                                                  @{@"placeholder": @"只能输入非负整数",
                                                                    @"pattern": RTInputTypeNonnegtiveInterger,
                                                                    },
+                                                                 @{@"placeholder": @"只能输入非负浮点数",
+                                                                   @"pattern": RTInputTypeNonnegtiveFloat,
+                                                                   },
                                                                  @{@"placeholder": @"只能输入简体中文",
                                                                    @"pattern": RTInputTypeChineseSimplified,
                                                                    }];
