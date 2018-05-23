@@ -22,7 +22,7 @@
 
 #import "RTTextField.h"
 
-@interface RTTextField () <UITextFieldDelegate>
+@interface RTTextField ()
 @property (nonatomic, strong) NSRegularExpression *regexp;
 @end
 
@@ -49,7 +49,7 @@
 - (void)setInputPattern:(NSString *)inputPattern
 {
     if (![_inputPattern isEqualToString:inputPattern]) {
-        _inputPattern = inputPattern;
+        _inputPattern = [inputPattern copy];
 
         NSError *error = nil;
         self.regexp = [NSRegularExpression regularExpressionWithPattern:_inputPattern
