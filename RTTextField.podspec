@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "RTTextField"
-  s.version      = "0.5.0"
+  s.version      = "0.5.1"
   s.summary      = "A dropin replacement for UITextField with input limitation."
   s.description  = <<-DESC
 		   This is a dropin replacement for UITextField, which can limit the use's input by specifing a valid input pattern.

@@ -21,7 +21,7 @@
 
     self.view.backgroundColor = [UIColor whiteColor];
 
-    __block CGFloat y = 64.f;
+    __block CGFloat y = 24.f;
 
     NSArray <NSDictionary <NSString *, NSString *> *> *array = @[@{@"placeholder": @"只能输入手机号",
                                                                    @"pattern": RTInputTypeChineseCellPhone,
@@ -38,6 +38,9 @@
                                                                  @{@"placeholder": @"只能输入非负浮点数",
                                                                    @"pattern": RTInputTypeNonnegtiveFloat,
                                                                    },
+                                                                 @{@"placeholder": @"只能输入拉丁字母",
+                                                                   @"pattern": RTInputTypeAlphabet,
+                                                                   },
                                                                  @{@"placeholder": @"只能输入简体中文",
                                                                    @"pattern": RTInputTypeChineseSimplified,
                                                                    }];
@@ -48,10 +51,9 @@
         textField.placeholder = obj[@"placeholder"];
         textField.inputPattern = obj[@"pattern"];
         [self.view addSubview:textField];
-        y = CGRectGetMaxY(textField.frame) + 20;
+        y = CGRectGetMaxY(textField.frame) + 8;
     }];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
